@@ -1,13 +1,17 @@
-# Daniel DeverellPittburgh Steelers
+# Daniel Deverell- Pittsburgh Steelers
 
 A responsive web page by Daniel Deverell for William Hill.
 
 - [View it online](https://deverell-williamhill.netlify.app)
-- [Github repo](https://github.com/DannyBoyNYC/williamhill)
+- [Github repo](https://github.com/DannyBoyNYC/williamhill) (this)
 
 Obviously _not exctly_ production code, but it _is_ bespoke for this project (no templates, etc.).
 
 Be sure to click the "Learn More" link!
+
+- React
+- SASS
+- SVG
 
 ## Created with Create React App
 

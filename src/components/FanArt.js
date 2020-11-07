@@ -1,4 +1,5 @@
 import React from "react";
+import upload from "../static/upload.png";
 
 const FanArt = ({ team }) => {
   return (
@@ -11,7 +12,12 @@ const FanArt = ({ team }) => {
       </div>
       <div className="title-area">
         <h1>Fan Photos</h1>
-        <img className="jersey" src={team.strTeamJersey} alt="Team Badge" />
+        <div style={{ position: "relative" }}>
+          <a href="#0" onClick={() => alert("Can't you find a better photo?")}>
+            <img className="upload" src={upload} alt="Upload" />
+          </a>
+          <img className="jersey" src={team.strTeamJersey} alt="Team Jersey" />
+        </div>
       </div>
       <div className="content-area"></div>
     </div>

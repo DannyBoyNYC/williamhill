@@ -8,7 +8,11 @@ const Banner = ({ team }) => {
       <div className="banner main">
         <div className="hero">
           <img className="badge" src={team.strTeamBadge} alt="Team Badge" />
-          <img src={team.strStadiumThumb} alt={team.strStadium} />
+          <img
+            className="main"
+            src={team.strStadiumThumb}
+            alt={team.strStadium}
+          />
         </div>
         <div className="title-area">
           <h1>{team.strTeam && team.strTeam.split(" ")[0]}</h1>
