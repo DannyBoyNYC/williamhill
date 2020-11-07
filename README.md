@@ -1,12 +1,15 @@
-# Pittburgh Steelers
+# Daniel DeverellPittburgh Steelers
 
-A sample web page by Daniel Deverell for William Hill. Yarn and run.
+A responsive web page by Daniel Deverell for William Hill.
 
-Obviously _not_ what you'd call production code, but it _is_ bespoke for this project (no templates, etc.).
+- [View it online](https://deverell-williamhill.netlify.app)
+- [Github repo](https://github.com/DannyBoyNYC/williamhill)
+
+Obviously _not exctly_ production code, but it _is_ bespoke for this project (no templates, etc.).
 
 Be sure to click the "Learn More" link!
 
-## Getting Started with Create React App
+## Created with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

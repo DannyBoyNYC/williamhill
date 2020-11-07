@@ -14,7 +14,13 @@ const About = ({ team }) => {
         <ul>
           <li>Formed: {team.intFormedYear}</li>
           <li>League: {team.strLeague}</li>
-          <li>Manager: {team.strManager}</li>
+          <li>
+            Manager:
+            <br />
+            <a href="https://en.wikipedia.org/wiki/Mike_Tomlin">
+              {team.strManager}
+            </a>
+          </li>
         </ul>
       </div>
     </div>

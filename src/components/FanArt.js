@@ -5,8 +5,8 @@ const FanArt = ({ team }) => {
     <div className="banner fan-art">
       <div className="hero">
         <img src={team.strTeamFanart2} alt="Team Fan Art" />
-        <img src={team.strTeamFanart3} alt="Team Fan Art" />
         <img src={team.strTeamFanart4} alt="Team Fan Art" />
+        <img src={team.strTeamFanart3} alt="Team Fan Art" />
         <img src={team.strTeamFanart1} alt="Team Fan Art" />
       </div>
       <div className="title-area">
