@@ -1,0 +1,86 @@
+$bp-med: 1024px;
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+:root {
+  --header-footer-spacing: 10px 5px;
+  --background: #16141a;
+  --border: #313131;
+  --primary: #ffc30d;
+  --red: #d92026;
+  --blue: #004e91;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Alfa Slab One", sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// 11ly - use button instead of link
+// https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
+button.link {
+  align-items: normal;
+  background-color: transparent;
+  border-style: none;
+  box-sizing: content-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline;
+  font: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 4px;
+  height: auto;
+  text-align: start;
+  perspective-origin: 0 0;
+  transform-origin: 0 0;
+}

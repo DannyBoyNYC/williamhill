@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Pittburgh Steelers
+
+A sample web page by Daniel Deverell for William Hill. Yarn and run.
+
+Obviously _not_ what you'd call production code, but it _is_ bespoke for this project (no templates, etc.).
+
+Be sure to click the "Learn More" link!
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

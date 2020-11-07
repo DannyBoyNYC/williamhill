@@ -1,0 +1,21 @@
+nav {
+  ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    a {
+      padding: 0.25rem 0.5rem;
+      color: #fff;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    span svg {
+      width: 3rem;
+    }
+    .react-icons {
+      color: var(--primary);
+      font-size: 1.75rem;
+    }
+  }
+}
